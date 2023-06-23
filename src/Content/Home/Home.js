@@ -1,5 +1,6 @@
 import React from 'react'
 import image1 from "../images/img1.jpg"
+import Images from '../Api/Imagec'
 import { Link } from 'react-router-dom'
 const Home = () => {
     return (
@@ -12,18 +13,30 @@ const Home = () => {
                     Call us for a free estimate and find out why GEM Flooring should be your choice.</p>
                 <Link to="/protfilio"><button type="submit">Protfilio</button></Link>
             </div>
-            <div className='porductcontainer'>
-            <div className='product'>
-                <h1>Our Product</h1>
-                <div className='product-card'>
-                    <div className='porduct-img'>
+            <div className='porductcontainer'><h1>Our Product</h1>
+                <div className='product'>
+                    
+                    <br></br>
+                    {Images.map((ele) => {
+                        const { img, name, des } = ele
+                        return (
+                            <>
+                                <div className='product-card'>
+                                 <Link to={`/protfilio/${name}`}>   <div className='porduct-img'>
+                                    <img src={img}/>
+                                    </div>
+                                    <div className='productinfo'>
+                                    <h2>{name}</h2>
+                                    <p>{des}</p>
 
-                    </div>
-                    <div className='productinfo'>
-                        
-                    </div>
+                                    </div></Link>
+                                </div>
+
+                            </>
+                        )
+                    })}
+
                 </div>
-            </div>
             </div>
         </div></>
     )
