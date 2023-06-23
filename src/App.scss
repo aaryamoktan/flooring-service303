@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  width:100%;
+  height:auto;
+}
+.navbar
+{
+  position:relative;
+  width:100%;
+  height:13vh;
+ 
+  a{
+    position:relative;
+    width:4%;
+    left:9%;
+    height:4vh;
+    img{
+      position:relative;
+      top:-80%;
+      left:-50%;
+      width:85%;
+    }
+    p{
+      position:relative;
+      left:-230%;
+      font-size: 15px;
+      word-spacing: -3px;
+      font-style:italic ;
+      top:-100%;
+      font-family:cursive;
+      color:rgb(91, 91, 91);
+    }
+  }
+  .collapse
+  {
+    position:relative;
+    width:100%;
+    .navbar-nav
+    {
+      position:Relative;
+      width:100%;
+      margin-left: 30%;
+      font-size: 25px;
+      font-family: 'Courier New', Courier, monospace;
+   li{
+    margin-left: 10%;
+    color:rgb(52, 51, 51);
+   };
+    }
+    
+  }
+}
+
+
