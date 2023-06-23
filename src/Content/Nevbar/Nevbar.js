@@ -1,9 +1,10 @@
 import React from 'react'
 import img from "./images/gf.png"
+import { Link } from 'react-router-dom'
 const Nevbar = () => {
     return (
         <>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light ">
                 <a class="navbar-brand" href="#">
                     <img src={img} alt="favicon" />
                     <p>Relince Engineering and Flooring Service</p>
@@ -15,16 +16,16 @@ const Nevbar = () => {
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <Link class="nav-link" to="/">Home <span class="sr-only">(current)</span></Link>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">Portfolio</a>
+                            <Link class="nav-link" to="/protfilio">Portfolio</Link>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">AboutUs</a>
+                            <Link class="nav-link" to="/about">AboutUs</Link>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">Contact</a>
+                            <Link class="nav-link" to="/contact">Contact</Link>
                         </li>
                        
                     </ul>
