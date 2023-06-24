@@ -22,7 +22,7 @@ const Home = () => {
                         return (
                             <>
                                 <div className='product-card'>
-                                 <Link to={`/protfilio/${name}`}>   <div className='porduct-img'>
+                                 <Link to="">   <div className='porduct-img'>
                                     <img src={img}/>
                                     </div>
                                     <div className='productinfo'>
