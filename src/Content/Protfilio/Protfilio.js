@@ -2,7 +2,11 @@ import React from 'react'
 
 const Protfilio = () => {
   return (
-    <><p>sdfsdkfjsidfjisdfj</p></>
+    <><div className='protfiliocontainer'>
+      <div className='protfiliosecond'>
+
+      </div>
+    </div></>
   )
 }
 
