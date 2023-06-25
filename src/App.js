@@ -5,6 +5,7 @@ import Contact from './Content/Contact/Contact';
 import About from './Content/About/About';
 import Protfilio from './Content/Protfilio/Protfilio';
 import Footer from './Content/footer/Footer';
+import Nevbar1 from './Content/Nevbar/Nevbar1';
 import {
   BrowserRouter,
   Route,
@@ -14,7 +15,8 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App">
-     <Nevbar/>
+    <Nevbar/>
+     
      <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/contact" element={<Contact/>}/>
