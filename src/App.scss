@@ -129,6 +129,7 @@
     justify-content: center;
     flex-wrap: wrap;
     overflow: hidden;
+    margin-bottom: 100px;
     .product-card
     {
       position:relative;
@@ -671,6 +672,229 @@
     top:10px;
     font-size: 15px;
     bottom: 4px;;
+  }
+}
+.protfiliocontainer
+{
+  position:relative;
+  width:100%;
+  height:auto;
+  .protfiliosecond
+  {
+    position:relative;
+    width:100%;
+    height:auto;
+    .explanationofwork
+    {
+      position:relative;
+    width:100%;
+    height:auto;
+    .explainworkinfo
+    {
+      position:relative;
+      width:100%;
+      height:10vh;
+      text-align: center;
+      h1{
+        position:relative;
+        font-family: 'Courier New', Courier, monospace;
+        top:70px;
+      }
+    }
+    .card
+    {
+      position:relative;
+      width:80%;
+      left:10%;
+      border-radius: 10px;
+      margin-top:100px;
+      img{
+        position:relative;
+        width:100%;
+        height:100%;
+        border-radius: 10px;
+        box-shadow: 1px 1px 20px black;
+      }
+      img:hover
+      {
+        box-shadow: 1px 1px 20px rgb(240, 7, 7);
+      }
+    }
+
+    }
+  }
+}
+.aboutcontainer
+{
+  position:relative;
+  width:100%;
+  height:auto;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  .aboutinner
+  {
+    position:relative;
+    width:100%;
+    height:auto;
+    .companyinfo
+    {
+      position:relative;
+      width:100%;
+      height:100vh;
+      .companyinfoinner
+      {
+        position: relative;
+        top:70px;
+        width:100%;
+        height:50vh;
+        text-align: center;
+        h1{
+          position:relative;
+         
+        }
+        p{
+          position:relative;
+          top:40px;
+        }
+      }
+      .companyimg
+      {
+        position:relative;
+        width:100%;
+        height: 50vh;
+       img{
+        position:relative;
+        width:90%;
+        height:100%;
+       }
+      }
+    }
+    .ceoinfo
+    {
+      position:relative;
+      width:100%;
+      height:auto;
+      overflow: hidden;
+      .ceoingoinner
+      {
+        position:relative;
+        width:100%;
+        height:auto;
+        .environtnment
+        {
+          position:relative;
+          margin-top: 70px;
+          width:100%;
+          height:50vh;
+          background:rgb(219, 252, 219);
+          h2{
+            position:relative;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            top:10px;
+          }
+          p{
+            position: relative;
+            font-size: 100px;
+            
+          }
+        }
+        .design
+        {
+          position:relative;
+          margin-top: 70px;
+          width:100%;
+          height:60vh;
+          background:rgb(252, 229, 219);
+          h2{
+            position:relative;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            top:10px;
+          }
+          p{
+            position: relative;
+            font-size: 100px;
+            
+          }
+        }
+        .performance
+        {
+          position:relative;
+          margin-top: 60px;
+          width:100%;
+          height:50vh;
+          background:rgb(224, 219, 252);
+          h2{
+            position:relative;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            top:10px;
+          }
+          p{
+            position: relative;
+            font-size: 100px;
+            
+          }
+         
+        }
+        
+      }
+      .moreinfo
+      {
+        position:relative;
+        top:30px;
+        
+      }
+      .infodet{ position:relative;
+      margin-top: 60px;
+      width:100%;
+      height:40vh;
+      background:rgb(252, 219, 243);
+      h1{
+        position:relative;
+        width:100%;
+        font-family: 'Times New Roman', Times, serif;
+        top:60px
+      }
+      h2{
+        position:relative;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        top:70px;
+      }
+      p{
+        position: relative;
+        top:80px;
+        font-size: 20px;
+        
+      }
+    }}
+
+  }
+}
+.contact_container
+{
+  position:relative;
+  width:100%;
+  height: auto;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  .contactinnercontainer
+  {
+    position:relative;
+    width:100%;
+    
+    .contact-info
+    {
+      position:relative;
+      width:100%;
+      height:auto;
+      .contact-details
+      {
+        position:relative;
+        margin-top: 100px;
+        width:100%;
+        height:40vh;
+
+      }
+    }
   }
 }
 }

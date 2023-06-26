@@ -46,17 +46,17 @@ const About = () => {
             </div>
             <div className='moreinfo'>
               <h1>Need More Information?</h1>
- </div>
-              <div className='infodet'>
-                <div className='infodet1'>
-                  <h1>flooringreliable@gmail.com</h1>
-                </div>
-                <div className='infodet2'>
-                 <h2> Get a Quote!</h2>
-                 <p>
+            </div>
+            <div className='infodet'>
+              <div className='infodet1'>
+                <h1>flooringreliable@gmail.com</h1>
+              </div>
+              <div className='infodet2'>
+                <h2> Get a Quote!</h2>
+                <p>
                   Call us for a free estimate and find out why Gem Flooring should be your choice.</p>
-                </div>
-             
+              </div>
+
 
             </div>
           </div>
