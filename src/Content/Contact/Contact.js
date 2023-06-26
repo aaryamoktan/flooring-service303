@@ -1,6 +1,15 @@
 import React from 'react'
+import emailjs from '@emailjs/browser';
+import { useNavigate } from 'react-router-dom'
 const img = require("../images/maitidevi.png")
+
 const Contact = () => {
+  const Nevigation = useNavigate()
+  const submit = ()=>
+  {
+    alert("Your Query have been send sucessufully")
+    Nevigation("/")
+  }
   return (
     <>
       <><div className='contact_container'>
@@ -29,11 +38,11 @@ const Contact = () => {
             <div className='forminfo'>
               <p>Contact us for more details for everything else.</p>
             </div> 
-            <div className='form'>
+            <div className='form' onSubmit={submit}>
               <form>  
-                <input type="email" className='inemail' placeholder="Email*"/>
+                <input type="email" className='inemail' name="email" placeholder="Email*"/>
                 <br/>
-                <input type="text" className='quest' placeholder='Ask Question*'/>
+                <input type="text" className='quest' name="question" placeholder='Ask Question*'/>
                 <br/><button type="submit">Send</button>             </form>
             </div>
           </div>

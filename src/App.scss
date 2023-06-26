@@ -756,7 +756,7 @@
           position:relative;
           margin-top: 70px;
           width:100%;
-          height:50vh;
+          height:57vh;
           background:rgb(219, 252, 219);
           h2{
             position:relative;
@@ -771,9 +771,9 @@
         .design
         {
           position:relative;
-          margin-top: 70px;
+          margin-top: 75px;
           width:100%;
-          height:60vh;
+          height:70vh;
           background:rgb(252, 229, 219);
           h2{
             position:relative;
@@ -788,9 +788,9 @@
         .performance
         {
           position:relative;
-          margin-top: 60px;
+          margin-top: 62px;
           width:100%;
-          height:50vh;
+          height:55vh;
           background:rgb(224, 219, 252);
           h2{
             position:relative;
@@ -813,22 +813,37 @@
       width:100%;
       height:40vh;
       background:rgb(252, 219, 243);
-      h1{
+      .infodet1
+      {
         position:relative;
         width:100%;
-        font-family: 'Times New Roman', Times, serif;
-        top:60px
-      }
-      h2{
+        height:50%;
+        h1{
+          position:relative;
+          width:100%;
+          font-size: 35px;
+          font-family: 'Times New Roman', Times, serif;
+          top:60px
+        }
+
+      }.infodet2
+      {
         position:relative;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        top:70px;
+        width:100%;
+        height:auto;
+        h2{
+          position:relative;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          top:-20px;
+        }
+        p{
+          position: relative;
+          top:0px;
+          font-size: 20px;  
+        }
       }
-      p{
-        position: relative;
-        top:80px;
-        font-size: 20px;  
-      }
+      
+     
     }}
   }
 }
