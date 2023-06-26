@@ -14,8 +14,7 @@ const Home = () => {
                 <Link to="/protfilio"><button type="submit">Protfilio</button></Link>
             </div>
             <div className='porductcontainer'><h1>Our Product</h1>
-                <div className='product'>
-                    
+                <div className='product'>                   
                     <br></br>
                     {Images.map((ele) => {
                         const { img, name, des } = ele
@@ -27,19 +26,14 @@ const Home = () => {
                                     </div>
                                     <div className='productinfo'>
                                     <h2>{name}</h2>
-                                    
-
                                     </div></Link>
                                 </div>
-
                             </>
                         )
                     })}
-
                 </div>
             </div>
         </div></>
     )
 }
-
 export default Home

@@ -30,16 +30,13 @@ const Contact = () => {
               <p>Contact us for more details for everything else.</p>
             </div> 
             <div className='form'>
-              <form>
-                
+              <form>  
                 <input type="email" className='inemail' placeholder="Email*"/>
                 <br/>
                 <input type="text" className='quest' placeholder='Ask Question*'/>
                 <br/><button type="submit">Send</button>             </form>
             </div>
           </div>
-
-
         </div>
       </div></>
     </>
